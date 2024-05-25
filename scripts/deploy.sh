@@ -74,7 +74,7 @@ do
 done
 
 echo "> $BLUE_PROFILE 에서 구동중인 애플리케이션 pid 확인"
-BLUE_PID=$(pgrep -f $BLUE_PROFILE-spotifyserver-0.0.1-SNAPSHOT.jar)
+BLUE_PID=$(pgrep -f $BLUE_PROFILE-spotifyserver.jar)
 
 if [ -z $BLUE_PID ]
 then
